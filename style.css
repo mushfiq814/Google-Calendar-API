@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'SF Pro Display';
+}
+
+.btn {
+  margin: 0 auto;
+  font-weight: bolder;
+  background: #D65108;
+  border: 2px solid #D65108;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #591F0A;  
+  border-color:#591F0A;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card {
+  padding: 25px;
+  border: 2px solid #D65108;
+  background-color: #f5e4c6;
+  color: #D65108;
+}
