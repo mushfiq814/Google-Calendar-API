@@ -30,7 +30,7 @@ var accessTokenKey = 'access_token';
 var nextUrlKey = '&token_type';
 var currentUrl = window.location.href;
 accessToken = currentUrl.substring(currentUrl.indexOf(accessTokenKey) + accessTokenKey.length + 1, currentUrl.indexOf(nextUrlKey));
-if (accessToken.length > 0) getEvents(accessToken, calendarID, '2019-01-15T10:00:00-05:00', 10);
+if (accessToken.length > 0) getEvents(accessToken, calendarID, '2019-01-15T10:00:00-05:00', 100);
 
 function redirect() {
   window.location.replace(oauth2EndPoint+params);
